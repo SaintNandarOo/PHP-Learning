@@ -9,7 +9,6 @@ $fruits = 283;
 $fruits['potassium'] = 'banana';
 // But this overwrites $fruits and it becomes an array
 $fruits = array('potassium' => 'banana');
-echo "$vegetables<br>";
-//echo "$fruits['potassium'] ";
-
- ?>
+echo "$vegetables <br>";
+echo "$fruits['potassium'] ";
+?>

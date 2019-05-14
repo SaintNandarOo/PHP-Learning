@@ -8,22 +8,18 @@ $meal = array(
 );
 print "Before Sorting: <br>";
 foreach ( $dinner as $key => $value ) {
-print "$dinner: $key $value<br>"; 
+	print "$dinner: $key $value <br>"; 
 }
-echo "<br>";
 foreach ( $meal as $key => $value ) { 
-	print "$meal:$key $value <br>";
+	print "$meal:$key$value <br>";
 }
-echo "<br>";
 sort( $dinner );
 sort( $meal );
 print "After Sorting: <br>";
-foreach ( $dinner as $key => $value ) {
+foreach ($dinner as $key => $value) {
 	print "$dinner: $key $value <br>"; 
 }
-echo "<br>";
 foreach ( $meal as $key => $value ) { 
 	print "$meal:$key$value <br>";
 }
 ?>
-
